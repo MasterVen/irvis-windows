@@ -1,7 +1,7 @@
 import './slider';
 import modals from './modules/modals';
 import tabs from './modules/tabs';
-import forms from "./modules/form";
+import forms from './modules/form';
 
 window.addEventListener('DOMContentLoaded', () => {
   modals();
@@ -11,6 +11,13 @@ window.addEventListener('DOMContentLoaded', () => {
     '.no_click',
     '.decoration_content > div > div',
     'after_click'
+  );
+  tabs(
+    '.balcon_icons',
+    '.balcon_icons_img',
+    '.big_img > img',
+    'do_image_more',
+    'inline-block'
   );
   forms();
 });
